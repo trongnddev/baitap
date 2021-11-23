@@ -22,5 +22,5 @@ end
 
 numbers = [3, 5, -4, 8, 11, -2, 6]
 target_sum = 10
-find_two_numbers(target_sum,numbers)
+
 puts "mang chua hai so co tong bang #{target_sum}: #{find_two_numbers(target_sum,numbers)}"
