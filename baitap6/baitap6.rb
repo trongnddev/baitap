@@ -17,6 +17,7 @@ def find_two_numbers(target_sum, numbers)
             hash_temp[target_sum - val] = val
         end
     end
+    
     return result
 end
 
