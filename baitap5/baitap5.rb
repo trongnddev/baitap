@@ -59,4 +59,12 @@ else
 
 end
 
+# Code e viết có nhiều comment dễ đọc, trình bày dễ hiểu
+# A có vài góp ý nhỏ về phần trình bày 
+# 1. Em có thể tách ra thành những hàm nhỏ để mình xử lý. Vd: hàm xử lý input user nhập vào, hàm xử lý logic,...
+# 2. Những con số, vd: 99 e có thể xem xét đặt là hằng số, để nếu có thay đổi, e chỉ cần thay đổi 1 chổ
+# 3. num == 0 e có thể viết num.zero?
+# 4. Mặc dù ghi comment là tốt, nhưng e nên ghi những comment với logic mà mình thấy hơi phức tạp or dễ bị confuse.
+# Vd: count == 0, e kg nên ghi comment là khởi tạo biến đếm.
+# #Neu phan tu  >= phan tu truoc thi them phan tu vao mang hien tai -> comment này nên ghi
 
