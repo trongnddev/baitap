@@ -25,3 +25,5 @@ numbers = [3, 5, -4, 8, 11, -2, 6]
 target_sum = 10
 
 puts "mang chua hai so co tong bang #{target_sum}: #{find_two_numbers(target_sum,numbers)}"
+
+# Code e viết tốt, có comment rõ ràng, dễ đọc và solution đúng ý a đang mong chờ
