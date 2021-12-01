@@ -1,5 +1,5 @@
 # @param [integer] target_sum
-# @param [array] numbers has integer numbers
+# @param [array] has integer numbers
 # @return [array]  has two integer
 def find_two_numbers(target_sum, numbers)
     
