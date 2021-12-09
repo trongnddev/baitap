@@ -21,7 +21,7 @@ def find_arrays_three_numbers(target_sum, numbers)
         numbers[index+1..-1].each_with_index do |valI, indexi|
 
             if hash_temp.key?(val - valI)
-                result.push([target_sum-val, val - valI, valI])
+                result.push([numbers[index], val - valI, valI])
             else
                 hash_temp[valI] = true 
             end
